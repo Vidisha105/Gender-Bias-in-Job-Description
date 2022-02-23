@@ -1,4 +1,20 @@
 
+The repository contains code to analyse gender bias in job descriptions dataset.
 
-We used NLP to dentify bias in 244,000+ Job descriptions across different sectors in UK. We used following data source.
+Data source -
 https://www.kaggle.com/chadalee/text-analytics-explained-job-description-data/data
+
+In this analysis, around ~2.5 lakh job descriptions from UK have been analysed for evaluating gender bias.
+The list of labeled words is based on research work done at Duke Univerity and University of Waterloo and is presented in the following research paper.
+https://gender-decoder.katmatfield.com/static/documents/Gaucher-Friesen-Kay-JPSP-Gendered-Wording-in-Job-ads.pdf
+
+Some other resources to study more about the bias in job descriptions are:
+https://gap.hks.harvard.edu/evidence-gendered-wording-job-advertisements-exists-and-sustains-gender-inequality https://www.paycor.com/resource-center/articles/are-your-job-descriptions-driving-away-talent-with-unconscious-gender-bias/
+
+Following steps have been followed to carry out the analysis:
+
+Pre-processing of data (cleaning, standardization and tokenization)
+Words frequency based on gender
+Consolidation of data and metrics
+Adding group dimensions (job category, location etc)
+Analysis of results using Google Data Studio
